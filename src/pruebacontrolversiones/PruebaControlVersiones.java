@@ -11,7 +11,7 @@ package pruebacontrolversiones;
  */
 public class PruebaControlVersiones {
     
-    //Realizamos un cambio en nuestro programa
+    //Estamos realizando otro cambio
 
     public static void main(String[] args) {
 
