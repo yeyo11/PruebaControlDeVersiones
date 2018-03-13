@@ -10,12 +10,24 @@ package pruebacontrolversiones;
  * @author USUARIO
  */
 public class PruebaControlVersiones {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+    //Realizamos un cambio en nuestro programa
+
+    public static void main(String[] args) {
+
+        int numero;
+        int j = 0;
+
+        for (int i = 0; i < 100; i++) {
+
+            numero = (int) (Math.random() * 6) + 1;
+
+            if (numero == 6) {
+                j++;
+            }
+        }
+        System.out.println("El nº6 ha aparecido  " + j + " veces");
+
+    }
+
 }
